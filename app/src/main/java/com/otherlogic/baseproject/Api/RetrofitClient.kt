@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
 
-    private const val BASE_URL = "https://egybusiness.net/prego-t/api/"
+    private const val BASE_URL = ""
 
     var interceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
     var builder = OkHttpClient.Builder()
